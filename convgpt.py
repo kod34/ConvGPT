@@ -35,8 +35,8 @@ sys_msg = SysInfo["sys_msg"]
 #? Chat Info
 chat_temp = float(ChatInfo["chat_temperature"])
 #? Audio Info
-audio_b_temp = float(AudioInfo["audio_transcrb_temperature"])
-audio_l_temp = float(AudioInfo["audio_translt_temperature"])
+audio_b_temp = AudioInfo["audio_transcrb_temperature"]
+audio_l_temp = AudioInfo["audio_translt_temperature"]
 #? Image Info
 new_image_size = ImageInfo["new_image_size"]
 edit_image_size = ImageInfo["edit_image_size"]
